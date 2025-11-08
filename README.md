@@ -23,7 +23,7 @@ If everything goes well, you can access the following services at given location
 * Customers, Vets, Visits and GenAI Services - random port, check Eureka Dashboard 
 * Tracing Server (Zipkin) - http://localhost:9411/zipkin/ (we use [openzipkin](https://github.com/openzipkin/zipkin/tree/main/zipkin-server))
 * Admin Server (Spring Boot Admin) - http://localhost:9090
-* Grafana Dashboards - http://localhost:3000
+* Grafana Dashboards - http://localhost:3030
 * Prometheus - http://localhost:9091
 
 You can tell Config Server to use your local Git repository by using `native` Spring profile and setting
